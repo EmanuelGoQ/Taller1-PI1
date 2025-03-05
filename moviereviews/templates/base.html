@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="{% url 'home' %}">
         {% load static %}
         <img src="{% static 'images/home.png' %}" alt="" width="30" height="24" class="d-inline-block align-text-top" />
         Movies
@@ -25,7 +25,7 @@
             <a class="nav-link" href="#">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sing Up</a>
+            <a class="nav-link" href="#">Sign Up</a>
           </li>
         </ul>
       </div>
